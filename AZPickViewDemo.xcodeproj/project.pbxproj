@@ -15,6 +15,8 @@
 		96E168071EA6EF88007B6AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E168051EA6EF88007B6AC4 /* LaunchScreen.storyboard */; };
 		96E168121EA6EF88007B6AC4 /* AZPickViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E168111EA6EF88007B6AC4 /* AZPickViewDemoTests.m */; };
 		96E1681D1EA6EF88007B6AC4 /* AZPickViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E1681C1EA6EF88007B6AC4 /* AZPickViewDemoUITests.m */; };
+		96E168341EA6F21E007B6AC4 /* AZPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E168321EA6F21E007B6AC4 /* AZPickView.m */; };
+		96E168351EA6F21E007B6AC4 /* AZPickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E168331EA6F21E007B6AC4 /* AZPickView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		96E168181EA6EF88007B6AC4 /* AZPickViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZPickViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E1681C1EA6EF88007B6AC4 /* AZPickViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZPickViewDemoUITests.m; sourceTree = "<group>"; };
 		96E1681E1EA6EF88007B6AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E168311EA6F21E007B6AC4 /* AZPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZPickView.h; sourceTree = "<group>"; };
+		96E168321EA6F21E007B6AC4 /* AZPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZPickView.m; sourceTree = "<group>"; };
+		96E168331EA6F21E007B6AC4 /* AZPickView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZPickView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		96E167EB1EA6EF88007B6AC4 = {
 			isa = PBXGroup;
 			children = (
+				96E168301EA6F21E007B6AC4 /* AZPPickView */,
 				96E167F61EA6EF88007B6AC4 /* AZPickViewDemo */,
 				96E168101EA6EF88007B6AC4 /* AZPickViewDemoTests */,
 				96E1681B1EA6EF88007B6AC4 /* AZPickViewDemoUITests */,
@@ -138,6 +144,17 @@
 				96E1681E1EA6EF88007B6AC4 /* Info.plist */,
 			);
 			path = AZPickViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		96E168301EA6F21E007B6AC4 /* AZPPickView */ = {
+			isa = PBXGroup;
+			children = (
+				96E168311EA6F21E007B6AC4 /* AZPickView.h */,
+				96E168321EA6F21E007B6AC4 /* AZPickView.m */,
+				96E168331EA6F21E007B6AC4 /* AZPickView.xib */,
+			);
+			name = AZPPickView;
+			path = AZPickViewDemo/AZPPickView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E168351EA6F21E007B6AC4 /* AZPickView.xib in Resources */,
 				96E168071EA6EF88007B6AC4 /* LaunchScreen.storyboard in Resources */,
 				96E168041EA6EF88007B6AC4 /* Assets.xcassets in Resources */,
 				96E168021EA6EF88007B6AC4 /* Main.storyboard in Resources */,
@@ -276,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E168341EA6F21E007B6AC4 /* AZPickView.m in Sources */,
 				96E167FF1EA6EF88007B6AC4 /* ViewController.m in Sources */,
 				96E167FC1EA6EF88007B6AC4 /* AppDelegate.m in Sources */,
 				96E167F91EA6EF88007B6AC4 /* main.m in Sources */,
